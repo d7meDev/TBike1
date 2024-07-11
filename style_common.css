@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    font-family: Poppins;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(37, 37, 37);
+}
+
+
+.hnav{
+    padding: 2px 4px;
+    background-color: rgb(37, 37, 37);
+    color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: space-between;
+    align-items:  baseline;
+    overflow: hidden;
+   
+}
+
+.hnav h1 a{
+    color: rgb(238, 238, 238) ;
+}
+.hnav .nav{
+    display: flex;
+    column-gap: 4em;
+}
+
+.hnav .nav li a{
+    color: rgb(238, 238, 238) ;
+    font-size: 3.5em;
+    
+}
+
+.hnav .nav-sign-bar{
+    display: flex;
+    column-gap: 0.5em;
+   
+    
+}
+
+
+.hnav .nav-sign-bar li button{
+    display: none;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1432px) {
+   
+    
+    
+    .hnav .nav-sign-bar li button{
+        display: block;
+    }
+
+    .hnav h1{
+        transform: translateY(-5px);
+    }
+
+    .hnav .nav{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1432px) {
+    .hnav h1 a{
+        font-size: 3.5em;
+    }
+
+    .nav-sign-bar{
+        align-self: flex-start;
+        transform: scale(1.7) translateY(40%);
+
+        
+    }
+}
+
+.hnav h1 a:hover{
+    color: rgb(255, 0, 0);
+    
+}
+
+.hnav .nav li a:hover{
+    color: rgb(255, 0, 0);
+    border-bottom: 4px solid white;
+
+}
+
+.nav-sign-bar li:hover{
+    transform: scale(1.2);
+}
+.hnav h1 a:active{
+    color: rgb(255, 0, 0);
+}
+
+.hnav .nav li a:active{
+    color: rgb(255, 0, 0);
+    border-bottom: 4px solid white;
+
+}
+
+.nav-sign-bar li:active{
+    transform: scale(1.2);
+}
+#menuCollapse{
+    display: none;
+}
+
+@media screen and (min-width: 478px) {
+    #menuCollapse{
+        display: none;
+    }
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    
+
+}
+.menu ul{
+    width: 100%;
+}
+
+.menu ul li {
+    width: 100%;
+}
+
+.menu ul li a{
+    color: rgb(238, 238, 238)
+}
+.menu ul li:hover{
+    background-color: rgb(29, 29, 29);
+   
+}
+
+.menu ul li:hover a{
+    color: rgb(255, 0, 0);
+}

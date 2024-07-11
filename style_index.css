@@ -1,0 +1,116 @@
+.intro{
+    padding: 10px;
+    font-size: 3vw;
+    color: rgb(238, 238, 238);
+    text-align: center;
+    background-image: url(img/intro.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    overflow: hidden;
+ 
+    
+}
+
+
+
+.thril{
+   min-height: 20vh;
+    
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 6em ;
+    padding: 10px;
+    
+}
+
+.thril .thead{
+    border-bottom: 10px solid rgb(255, 0, 0); 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 70%;
+    text-align: center;
+}
+
+.thril h2{
+    font-size: 3vw;
+    color: rgb(238, 238, 238);
+    
+}
+
+.thril .advan{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 10em;
+    row-gap: 5em;
+    flex-wrap: wrap;
+}
+
+.thril .advan .box{
+  padding: 10px;
+  height: 300px;
+  width: 300px;
+  
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: rgb(238, 238, 238);
+  font-size: 1.5em;
+  text-align: right;
+  text-shadow: 0px 0px 1px rgb(255, 0, 0);
+  
+
+  
+}
+
+
+.thril .advan #box1{
+  background-image: url(img/advan2.webp);
+}
+.thril .advan #box2{
+  background-image: url(img/red.avif);
+}
+.thril .advan #box3{
+  background-image: url(img/advan3.jpeg);
+
+}
+
+
+.thril .advan .box p{
+    z-index: 1;
+}
+
+@media screen and (min-width:501px) {
+    
+.thril .advan .box{
+        width: 500px;
+        height: 500px;
+    }
+    
+}
+
+
+
+@media screen and (max-width:1440px) {
+    .intro{
+      font-size: 6vw;
+    }
+
+    .thril h2{
+        font-size: 10vw;
+    }
+}
+
+
+
+
+
+
+
