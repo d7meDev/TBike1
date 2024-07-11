@@ -6,7 +6,8 @@
     background-image: url(img/intro.jpg);
     background-size: cover;
     background-position: center;
-    height: 30vh;
+    background-attachment:local ;
+    min-height: 40vh;
     overflow: hidden;
  
     
