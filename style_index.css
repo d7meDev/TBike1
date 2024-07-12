@@ -153,6 +153,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  position: relative;
   
  
   
@@ -190,6 +191,26 @@
 }
 
 
+.best .bestBikes .BBike .buttonContainer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  height: 100%;
+  padding-bottom:1dvh ;
+}
+
+
+.best .bestBikes .BBike .buttonContainer button{
+  align-self: flex-end;
+  font-size: 1em;
+  padding: 10px;
+  text-align: center;
+ 
+}
+
+
+
 
 
 
@@ -206,11 +227,19 @@
       width: 125px;
       height: 250px;
   }
+
+  .best .bestBikes .BBike .buttonContainer button{
+    width: 62.5px;
+  }
 }
 @media screen and (min-width:768px) {
   .best .bestBikes .BBike{
       width: 240px;
       height: 480px;
+  }
+
+  .best .bestBikes .BBike .buttonContainer button{
+    width: 120px;
   }
 }
 
@@ -220,12 +249,20 @@
       width: 300px;
       height: 600px;
   }
+
+  .best .bestBikes .BBike .buttonContainer button{
+    width: 150px;
+  }
 }
 
 @media screen and (min-width:1600px) {
   .best .bestBikes .BBike{
       width: 350px;
       height: 700px;
+  }
+
+  .best .bestBikes .BBike .buttonContainer button{
+    width: 175px;
   }
 }
 
