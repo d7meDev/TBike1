@@ -16,7 +16,7 @@ body{
 
 
 .hnav{
-    padding: 2px 4px;
+    padding: 4px 4px;
     background-color: rgb(37, 37, 37);
     color: rgb(238, 238, 238);
     display: flex;
@@ -57,14 +57,13 @@ body{
 
 @media screen and (max-width: 1432px) {
    
-    
-    
     .hnav .nav-sign-bar li button{
         display: block;
     }
 
     .hnav h1{
         transform: translateY(-5px);
+        font-size: 2em;
     }
 
     .hnav .nav{
