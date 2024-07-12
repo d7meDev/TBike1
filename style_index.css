@@ -161,16 +161,16 @@
 }
 
 .best .bestBikes #Bike1{
-  z-index: -1;
+  
   transform: translateY(50px);
 }
 .best .bestBikes #Bike2{
-  z-index: 2;
+
+  /*maybe one day*/
   
- 
 }
 .best .bestBikes #Bike3{
-  z-index: -1;
+  
   transform: translateY(50px);
 }
 
@@ -184,7 +184,7 @@
 .best .bestBikes .BBike .BikeTitle{
   background-color: rgb(37, 37, 37);
   text-align: center;
-  font-size: 0.6em;
+  font-size: 1.3vw;
   width: 100%;
   padding: 5px;
   
@@ -201,15 +201,27 @@
 }
 
 
-.best .bestBikes .BBike .buttonContainer button{
+.best .bestBikes .BBike .buttonContainer a{
   align-self: flex-end;
   font-size: 1em;
   padding: 1px;
   text-align: center;
   border-radius:15px;
   width: 60px;
+  background-color: rgb(75, 75, 75);
+  color: rgb(238, 238, 238);
+  cursor: pointer;
 
  
+}
+
+.best .bestBikes .BBike .buttonContainer a:hover{
+  transform: scale(1.1);
+  color: rgb(255, 0, 0);
+}
+.best .bestBikes .BBike .buttonContainer a:active{
+  transform: scale(1.1);
+  color: rgb(255, 0, 0);
 }
 
 
@@ -231,7 +243,7 @@
       height: 250px;
   }
 
-  .best .bestBikes .BBike .buttonContainer button{
+  .best .bestBikes .BBike .buttonContainer a{
     width: 62.5px;
     border-radius:20px;
   }
@@ -242,7 +254,7 @@
       height: 480px;
   }
 
-  .best .bestBikes .BBike .buttonContainer button{
+  .best .bestBikes .BBike .buttonContainer a{
     width: 120px;
     border-radius:25px;
   }
@@ -255,7 +267,7 @@
       height: 600px;
   }
 
-  .best .bestBikes .BBike .buttonContainer button{
+  .best .bestBikes .BBike .buttonContainer a{
     width: 150px;
     border-radius:40px;
   }
@@ -267,7 +279,7 @@
       height: 700px;
   }
 
-  .best .bestBikes .BBike .buttonContainer button{
+  .best .bestBikes .BBike .buttonContainer a{
     width: 300px;
     border-radius:80px;
   }
