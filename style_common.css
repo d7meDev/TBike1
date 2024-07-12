@@ -62,7 +62,7 @@ body{
     }
 
     .hnav h1{
-        transform: translateY(-5px);
+        transform: translateY(-10px);
         font-size: 2em;
     }
 
