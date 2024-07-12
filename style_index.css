@@ -109,7 +109,170 @@
     }
 }
 
+.best{
+  margin-top: 20vh;
+ 
+  font-size: 3vw;
+  color: rgb(238, 238, 238);
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+}
 
+.best h2{
+  border-bottom: 10px solid rgb(255, 0, 0); 
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 70%;
+  text-align: center;
+  
+}
+
+.best .bestBikes{
+  margin-top: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  column-gap: 0.5em;
+  
+
+}
+
+.best .bestBikes .BBike{
+  width: 100px;
+  height: 200px;
+  background-color: rgb(14, 14, 14);
+  background-image: url(img/whiteCardbg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  animation: boxShadow 10s linear infinite ;
+  filter: brightness(80%);
+  box-shadow: 0px 0px 5px rgb(255, 255, 255);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  
+ 
+  
+  
+}
+
+.best .bestBikes #Bike1{
+  z-index: -1;
+  transform: translateY(50px);
+}
+.best .bestBikes #Bike2{
+  z-index: 2;
+  
+ 
+}
+.best .bestBikes #Bike3{
+  z-index: -1;
+  transform: translateY(50px);
+}
+
+.best .bestBikes .BBike img{
+  width: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+.best .bestBikes .BBike .BikeTitle{
+  background-color: rgb(37, 37, 37);
+  text-align: center;
+  font-size: 0.3em;
+  width: 100%;
+  padding: 5px;
+  
+}
+
+
+
+
+
+@media screen and (max-width:1440px) {
+
+  .best h2{
+      font-size: 10vw;
+  }
+
+}
+
+@media screen and (min-width:425px) {
+  .best .bestBikes .BBike{
+      width: 125px;
+      height: 250px;
+  }
+}
+@media screen and (min-width:768px) {
+  .best .bestBikes .BBike{
+      width: 240px;
+      height: 480px;
+  }
+}
+
+
+@media screen and (min-width:1118px) {
+  .best .bestBikes .BBike{
+      width: 275px;
+      height: 550px;
+  }
+}
+
+@media screen and (min-width:1600px) {
+  .best .bestBikes .BBike{
+      width: 350px;
+      height: 700px;
+  }
+}
+
+
+@media screen and (min-width:425px) {
+  .best .bestBikes .BBike img{
+      width: 125px;
+      
+  }
+}
+@media screen and (min-width:768px) {
+  .best .bestBikes .BBike img{
+      width: 240px;
+      
+  }
+}
+
+
+@media screen and (min-width:1118px) {
+  .best .bestBikes .BBike img{
+      width: 275px;
+      
+  }
+}
+
+@media screen and (min-width:1600px) {
+  .best .bestBikes .BBike img{
+      width: 350px;
+     
+  }
+}
+
+
+
+
+
+
+
+
+
+.after{
+  margin-top: 20vh;
+  height: 10vh;
+  
+}
 
 
 
