@@ -149,7 +149,6 @@
   border-radius: 10px;
   animation: boxShadow 10s linear infinite ;
   filter: brightness(80%);
-  box-shadow: 0px 0px 5px rgb(255, 255, 255);
 
   display: flex;
   flex-direction: column;
@@ -185,7 +184,7 @@
 .best .bestBikes .BBike .BikeTitle{
   background-color: rgb(37, 37, 37);
   text-align: center;
-  font-size: 0.3em;
+  font-size: 0.6em;
   width: 100%;
   padding: 5px;
   
@@ -219,8 +218,8 @@
 
 @media screen and (min-width:1118px) {
   .best .bestBikes .BBike{
-      width: 275px;
-      height: 550px;
+      width: 300px;
+      height: 600px;
   }
 }
 
@@ -248,7 +247,7 @@
 
 @media screen and (min-width:1118px) {
   .best .bestBikes .BBike img{
-      width: 275px;
+      width: 300px;
       
   }
 }
