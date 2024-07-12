@@ -78,7 +78,7 @@ body{
 
     .nav-sign-bar{
         align-self: flex-start;
-        transform: scale(1.7) translateY(40%);
+        transform: scale(1.5) translateY(40%);
 
         
     }
@@ -115,17 +115,14 @@ body{
     display: none;
 }
 
-@media screen and (min-width: 478px) {
-    #menuCollapse{
-        display: none;
-    }
-}
+
 
 .menu{
     display: flex;
     justify-content: center;
     background-color: rgb(37, 37, 37);
     text-align: center;
+    font-size: 2em;
     
 
 }
