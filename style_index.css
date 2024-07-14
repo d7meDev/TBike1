@@ -320,6 +320,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .rent > h1{
@@ -327,11 +328,50 @@
   width: 100%;
   text-align: right;
   padding: 1em;
-  font-size: 3em;
+  font-size: 11em;
 }
 
 
 
+
+
+
+
+@media screen and (max-width:1440px) {
+    .rent > h1{
+      font-size: 5.9em;
+    }
+}
+
+@media screen and (max-width:1024px) {
+  .rent > h1{
+    font-size: 4.2em;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .rent > h1{
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .rent > h1{
+    font-size: 1.7em;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .rent > h1{
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .rent > h1{
+    font-size: 1.3em;
+  }
+}
 
 .after{
   margin-top: 20vh;
