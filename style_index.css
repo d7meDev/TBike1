@@ -315,9 +315,20 @@
 }
 
 
+.rent{
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-
-
+.rent > h1{
+  background-color: antiquewhite;
+  width: 100%;
+  text-align: right;
+  padding: 1em;
+  font-size: 3em;
+}
 
 
 
