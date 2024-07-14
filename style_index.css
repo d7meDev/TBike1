@@ -326,7 +326,7 @@
 .rent > h1{
   background-color: antiquewhite;
   width: 100%;
-  text-align: center;
+  text-align: right;
   padding: 1em;
   font-size: 4em;
 }
