@@ -378,12 +378,83 @@
 
 
 .rent .Bikes{
- min-height: 110vh;
+  min-height: 110vh;
   width: 100%;
   background-color: rgb(50, 50, 50);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5em 10px;
+  column-gap: 10em;
+  row-gap: 5em;
+  flex-wrap: wrap;
 }
 
+.rent .Bikes .Bike{
+   height: 600px;
+   width:300px;
+   background-color: beige;
+   background-image: url(img/Bikebg.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 25px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   
+}
+
+.rent .Bikes .Bike img{
+    width: 300px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    filter: brightness(90%);
+}
+
+
+.rent .Bikes .Bike h1{
+  font-size: 1.5em;
+  color: rgb(238, 238, 238);
+  background-color: rgb(138, 0, 0);
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px ;
+}
+
+.rent .Bikes .Bike .btn-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 1em 0em;
+}
+
+.rent .Bikes .Bike .btn-container a{
+   text-align: center;
+   padding: 0em 2em;
+   font-size: 2.5em;
+   border-radius: 30px;
+   background-color: rgb(138, 0, 0);
+   border: 1px outset rgb(0, 0, 0);
+   color: rgb(238, 238, 238);
+   
+   
+}
+
+.rent .Bikes .Bike .btn-container a:hover{
+
+    background-color: rgb(100, 0, 0) ;
+    color: rgb(255, 255, 255);
+
+}
+
+
 .after{
+
   margin-top: 20vh;
   height: 10vh;
   
