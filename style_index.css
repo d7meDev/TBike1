@@ -146,7 +146,6 @@
   background-position: center;
   background-size: cover;
   border-radius: 10px;
-  animation: boxShadow 10s linear infinite ;
   filter: brightness(80%);
 
   display: flex;
@@ -316,7 +315,7 @@
 
 
 .rent{
-  margin-top: 20vh;
+  margin-top: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -324,11 +323,14 @@
 }
 
 .rent > h1{
-  background-color: antiquewhite;
-  width: 100%;
-  text-align: right;
+
+  color: rgb(238, 238, 238);
+  width: 80%;
+  text-align: center;
   padding: 1em;
   font-size: 4em;
+  border-bottom: 10px solid rgb(255, 0, 0);
+  border-radius: 10px;
 }
 
 
