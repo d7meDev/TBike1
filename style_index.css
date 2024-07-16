@@ -391,7 +391,7 @@
 }
 
 .rent .Bikes .Bike{
-   height: 600px;
+   height: 500px;
    width:300px;
    background-color: beige;
    background-image: url(img/Bikebg.jpg);
@@ -404,6 +404,8 @@
    flex-direction: column;
    align-items: center;
    justify-content: flex-start;
+
+   animation-timeline: view();
    
 }
 
@@ -424,6 +426,90 @@
   padding: 10px 0px ;
 }
 
+.rent .Bikes .Bike .info{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rent .Bikes .Bike .infohead{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+  font-size: 1.5em;
+  
+  width: 100%;
+  
+}
+
+.rent .Bikes .Bike .infohead p{
+  text-align: center;
+  width: 100%;
+  color: rgb(238, 238, 238);
+  padding: 5px;
+
+  
+}
+.rent .Bikes .Bike .infohead .year{
+  background-color: rgb(54, 54, 54);
+  
+  
+  
+}
+.rent .Bikes .Bike .infohead .type{
+  background-color: rgb(37, 37, 37);
+ 
+  
+}
+.rent .Bikes .Bike .infohead .make{
+  background-color: rgb(54, 54, 54);
+   
+  
+}
+
+.rent .Bikes .Bike .infobody{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+  
+  font-size: 0.9em;
+  background-color: rgb(216, 216, 216);
+  width: 100%;
+ 
+  
+}
+
+.rent .Bikes .Bike .infobody p{
+  text-align: center;
+  width: 100%;
+  color: rgb(238, 238, 238);
+  padding: 5px;
+
+  
+}
+.rent .Bikes .Bike .infobody .year{
+  background-color: rgb(37, 37, 37);
+  
+  
+  
+}
+.rent .Bikes .Bike .infobody .type{
+  background-color: rgb(54, 54, 54);
+ 
+  
+}
+.rent .Bikes .Bike .infobody .make{
+  background-color: rgb(37, 37, 37);
+   
+  
+}
+
+
+
+
+
 .rent .Bikes .Bike .btn-container{
   height: 100%;
   width: 100%;
@@ -441,6 +527,8 @@
    background-color: rgb(138, 0, 0);
    border: 1px outset rgb(0, 0, 0);
    color: rgb(238, 238, 238);
+
+   
    
    
 }
