@@ -96,7 +96,7 @@ body{
 }
 
 .nav-sign-bar li:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 .hnav h1 a:active{
     color: rgb(255, 0, 0);
@@ -109,7 +109,7 @@ body{
 }
 
 .nav-sign-bar li:active{
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 #menuCollapse{
     display: none;
